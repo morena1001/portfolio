@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    </head>
+    <body>
+        <div class="header-tab">
+            <h1 class="name">Flores</h1>
+            <h1 class="dot">.</h1>
+
+            <a href="#home" class="item" id="home-button parent">
+                <canvas class="highlight" id="highlight"></canvas>
+                <span id="text">Home</span>
+            </a>
+            <a href="#about" class="item" id="about-button parent">
+                <span id="text">About</span>
+            </a>
+            <a href="#projects" class="item" id="projects-button parent">
+                <span id="text">Projects</span>
+            </a>
+            <a href="#contact" class="item" id="contact-button parent">
+                <span id="text">Contact</span>
+            </a>
+        </div>
+
+        <section class="home" id="home">
+            <img src="images/profile_picture.JPG" alt="Profile Picture" class="profile-picture">
+            <p class="full-name">Josué Flores</p>
+            <p class="titles">Developer interested in topics ranging from computability<br> to operating systems to software development.</p>
+            <ul class="links">
+                <li class="link-item"><a href="https://www.instagram.com/_morena1001_/"  target="_blank"><img src="https://img.icons8.com/fluency/48/000000/instagram-new.png"/></a></li>
+                <li class="link-item"><a href="https://www.linkedin.com/in/josue-flores-100772259" target="_blank"><img src="https://img.icons8.com/color/48/000000/linkedin.png"/></a></li>
+                <li class="link-item"><a href="https://github.com/morena1001" target="_blank"><img src="https://img.icons8.com/fluency/48/000000/github.png"></a></li>
+                <li class="link-item"><a href="mailto:josueflores15.jf@gmail.com" target="_blank"><img src="https://img.icons8.com/color/48/000000/gmail-new.png"/></a></li>
+            </ul>
+            <span class="instruction" center>Scroll Down</span>
+        </section>
+
+        
+
+        <section class="about" id="about"> 
+            <h1>About</h1>
+            <div class="about-container">
+                <p>
+                    I am Josué Flores, a graduate with a bachelor's degree in Computer Science, and passionate about web, game, and software development.
+                    Throughout my college career, I studied topics covering mathematics like algorithms and data structures, 
+                    to theoretical topics like discrete math and computability, to more hands-on topics like databases, operating systems, deep learning, and assembly language.
+                </p>
+                <p>
+                    Curently, my main focus is web development using HTML, JavaScript, and some lightweight Node.js tools like JSON server.
+                    I have also recently retaken interest in programming with assembly language and game development using Unity, 
+                    as well as taken a new interest in electrical engineering to code electronics using a Raspberry Pi. 
+                </p>
+                <p>
+                    Proficient in C, C++, C#, HTML and JavaScript, and Java. Familiar with Python, SQLitem Pytorch, Dart and Flutter.
+                </p>
+            </div>
+        </section>
+
+        
+
+        <section class="projects" id="projects">
+            <h1>Projects</h1>
+            <!-- <canvas class="highlight-project" id="highlight-project"></canvas> -->
+            <div class="filters" id="buttons">
+                <button class="filter-button" id="all" data-filter="all">
+                    <canvas class="highlight-project" id="highlight-project"></canvas>
+                    <span class="filter-text" id="all text">All</span>
+                </button>
+                <button class="filter-button" id="web" data-filter="web">
+                    <span class="filter-text" id="web text">Web</span>
+                </button>
+                <button class="filter-button" id="other" data-filter="other">
+                    <span class="filter-text"  id="other text">Other</span>
+                </button>
+            </div>
+            <div class="project-item-container">
+                <div class="project-item" data-category="web">
+                    <img src="images/Animated Search Bar.gif" alt="Animated Search Bar" class="project-videos" id="ASB">
+                    <p>Animated Search Bar</p>
+                    <p>This simple page was developed to showcase transitions in css </p>
+                    <a href="https://github.com/morena1001/Animated-Search-Bar">Link to repository</a>
+                    <br>
+                    <a href="https://morena1001.github.io/Animated-Search-Bar/page.html">Link to page</a>
+                </div>
+
+                <div class="project-item" data-category="web">
+                    <img src="images/Calculator.gif" alt="Calculator" class="calc-video project-videos" id="calc">
+                    <p>Calculator</p>
+                    <p>This website defines a simple parser that outputs a mathematical equation from a string</p>
+                    <a href="https://github.com/morena1001/Calculator">Link to repository</a>
+                    <br>
+                    <a href="https://morena1001.github.io/Calculator/page.html">Link to page</a>
+                </div>
+
+                <div class="project-item" data-category="web">
+                    <!-- <img src="images/To Do List.gif" alt="To Do List" class="project-videos" id="TDL"> -->
+                    <p>To Do List</p>
+                    <p>Small focus on backend, with a json-server running in the background to store the items to do</p>
+                    <a href="https://github.com/morena1001/To-Do-List">Link to repository</a>
+                </div>
+
+                <div class="project-item" data-category="web">
+                    <!-- <img src="images/Right Click Tab.gif" alt="Right Click Tab" class="project-videos" id="RCT"> -->
+                    <p>Right Click Tab</p>
+                    <p>Overrides default right-click tab provided by the web browser with a custom right-click tab</p>
+                    <a href="https://github.com/morena1001/Right-Click-Tab">Link to repository</a>
+                    <br>
+                    <a href="https://morena1001.github.io/Right-Click-Tab/page.html">Link to page</a>
+                </div>
+
+                <div class="project-item" data-category="web">
+                    <!-- <img src="images/Basic Form.gif" alt="Basic Form" class="project-videos" id="BF"> -->
+                    <p>Basic Form</p>
+                    <p>Simple form that could be hooked up to a server to record the answers of each submitted form</p>
+                    <a href="https://github.com/morena1001/Basic_Form">Link to repository</a>
+                    <br>
+                    <a href="https://morena1001.github.io/Basic_Form/form.html">Link to page</a>
+                </div>
+
+                <div class="project-item" data-category="web">
+                    <!-- <img src="images/Stopwatch.gif" alt="Stopwatch" class="project-videos" id="Stopwatch"> -->
+                    <p>Stopwatch</p>
+                    <p>Online stopwatch capable of pausing and restarting timer</p>
+                    <a href="https://github.com/morena1001/Stopwatch_Website">Link to repository</a>
+                    <br>
+                    <a href="https://morena1001.github.io/Stopwatch_Website/page.html">Link to page</a>
+                </div>
+
+                <div class="project-item" data-category="other">
+                    <!-- <img src="images/Bankers Algorithm.gif" alt="Banker's Algorithm" class="project-videos" id="BA"> -->
+                    <p>Banker's Algorithm Demo</p>
+                    <p>Project in C showcasing a lite version of the Banker's Algorithm</p>
+                    <a href="https://github.com/morena1001/bankers-algorithm">Link to repository</a>
+                </div>
+
+                <div class="project-item" data-category="other">
+                    <!-- <img src="images/Cat of Duty.gif" alt="Cat of Duty" class="project-videos" id="COD"> -->
+                    <p>Cat of Duty: Zombies</p>
+                    <p>2D isometric video game in Unity about surviving zombie apocalypse</p>
+                    <a href="https://github.com/morena1001/Cat-of-Duty-Zombies">Link to repository</a>
+                </div>
+
+                <div class="project-item" data-category="other">
+                    <!-- <img src="images/Snake Game.gif" alt="Snake Game Player" class="project-videos" id="SGP"> -->
+                    <p>Multi Agent Snake Game Player</p>
+                    <p>AI model in Pyhton using Pytorch and Pygame that can control 2 snakes at the same time</p>
+                    <a href="https://github.com/morena1001/Snake-Game-Player">Link to repository</a>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <h1>Contact Me</h1>
+            <section class="contact-info">
+                <div class="information">
+                    <h4 class="phone-info">Phone Number</h4>
+                    <p>+1 (956) 598-0668</p>
+                    <h4 class="email-info">Email</h4>
+                    <p>josueflores15.jf@gmail.com</p>
+                </div>
+            </section>
+        </section>
+
+        <script src="logic.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    </body>
+</html>
