@@ -1,12 +1,7 @@
 body {
-    /* 9c7710 916D0A */
-    /* background: linear-gradient(to bottom right, #E7DCBC, #9C874E);
-    background-attachment: fixed; */
     background-color: #d8d2c0;
 
     font-family: 'Courier New', Courier, monospace;
-    /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
-    /* font-family:Georgia, 'Times New Roman', Times, serif; */
     margin: 0px 100px;
     overflow-x: hidden;
 }
@@ -39,8 +34,6 @@ body {
 }
 
 .item {
-    /* display: inline-block;
-    vertical-align: middle; */
     margin: 0px 25px;
     border: none;
     background-color: inherit;
@@ -48,8 +41,6 @@ body {
     font-size: 15px;
     text-decoration: none;
     color: black;
-    /* position: relative; */
-    /* position: fixed; */
 
     transition: color 0.25s ease, padding-bottom 0.25s ease;
 }
