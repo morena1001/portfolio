@@ -79,8 +79,9 @@ body {
 }
 
 .profile-picture {
-    width: 400px;
+    width: 400px; 
     height: 350px;
+    object-fit: cover;
 }
 
 .full-name {
@@ -141,7 +142,7 @@ body {
     display: grid;
     justify-content: center;
     grid-template-columns: repeat(3, 300px);
-    grid-template-rows: repeat(3, 400px);
+    grid-template-rows: repeat(3, 250px);
     row-gap: 50px;
     column-gap: 50px;
     font-style: normal;
@@ -151,8 +152,8 @@ body {
     border: 2px solid;
     border-radius: 10px;
     text-align: center;
-    padding-top: 5px;
-    height: 400px;
+    height: 250px;
+    padding: 5px 10px 0px 10px;
 }
 
 .project-videos {
